@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CV from '../assets/download/Internship Cover Letter nattavut014.pdf'
 const Header = () => {
     const menuFunction = () => {
         const menuBtn = document.getElementById("myNavMenu");
@@ -32,9 +32,11 @@ const Header = () => {
                 </ul>
             </div>
             <div className='nav-button'>
-                <button className='btn'>
-                    Dowload CV <i className='uil uil-import'></i>
-                </button>
+                <a href={CV} target='_blank'>
+                    <button className='btn'>
+                        Dowload CV <i className='uil uil-import'></i>
+                    </button>
+                </a>
             </div>
             <div className='nav-menu-btn'>
                 <i className='uil uil-bars' onClick={menuFunction}></i>

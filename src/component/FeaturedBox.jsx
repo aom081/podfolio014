@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from '../image/avatar.jpeg'
+import CV from '../assets/download/Internship Cover Letter nattavut014.pdf'
 
 const FeaturedBox = () => {
   return (
@@ -12,21 +13,31 @@ const FeaturedBox = () => {
           I'm <span className='typedText'></span>
         </div>
         <div className='featured-text-info'>
+          "Hello! I am a software engineering student with a passion for frontend development and UI/UX design. 
+          I enjoy creating intuitive and visually appealing user interfaces, focusing on delivering smooth and engaging user experiences. 
+          I love turning ideas into functional and user-friendly designs using modern tools and technologies."
+          <p> Let me know if you'd like to adjust anything!</p>
         </div>
         <div className='featured-text-button'>
-          <button className='btn'>
+          <a href={CV} target='_blank'><button className='btn'>
             Dowload CV <i className='uil uil-import'></i>
           </button>
+          </a>
         </div>
         <div className='social_icons'>
           <div className='icon'>
-            <a href="https://www.instagram.com/solaomnattavut/">
+            <a href="https://www.instagram.com/solaomnattavut/" target='_blank'>
             <i className='uil uil-instagram'></i>
             </a>
           </div>
           <div className='icon'>
-            <a href="https://www.facebook.com/solaom.nattavut">
+            <a href="https://www.facebook.com/solaom.nattavut" target='_blank'>
               <i className='uil uil-facebook'></i>
+            </a>
+          </div>
+          <div className='icon'>
+            <a href="https://github.com/aom081" target='_blank'>
+              <i className='uil uil-github'></i>
             </a>
           </div>
         </div>

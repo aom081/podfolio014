@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     //** Type Effect */
     const typingEffect = new Typed('.typedText', {
-      strings: [" Full Stack Developer.", " UI/UX designer", " Software Developer.","BETTER!!"],
+      strings: ["FullStack Dev", "UI/UX designer", "Software Dev","BETTER!!"],
         typeSpeed: 100,  
         backSpeed: 50,
         backDelay: 2000,
