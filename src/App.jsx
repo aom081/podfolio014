@@ -72,11 +72,12 @@ function App() {
     window.addEventListener("scroll", scrollActive);
 
     //** Type Effect */
-    const typingEffect = new Typed('.typedText', {
-      strings: ["FullStack Dev", "UI/UX designer", "Software Dev", "BETTER!!"],
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000,
+    const typingEffect = new Typed(".typedText", {
+      strings: [
+        "เพชรดีมณีแดง","เขียวใสแสงมรกต", "เหลืองใสสดบุษราคัม", "แดงแก่ก่ำโกเมนเอก", "สีหมอกเมฆนิลกาฬ", "มุกดาหารหมอกมัว", "แดงสลัวเพทาย", "สังวาลย์สายไพฑูรย์"],
+      typeSpeed: 50,
+      backSpeed: 60,
+      backDelay: 1000,
       loop: true,
     });
 

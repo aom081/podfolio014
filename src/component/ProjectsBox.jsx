@@ -5,7 +5,7 @@ const ProjectsBox = () => {
     <div>
       <section className='section' id='project'>
         <div className="top-header">
-          <h1>Project</h1>
+          <h1>Shop</h1>
         </div>
         <div className="project-container">
           <div className="project-box">
